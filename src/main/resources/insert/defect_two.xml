@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root generator="com.hanke.clobrw.generator.InsertGenerator">
+ 	<sourceTableName id="id">defect</sourceTableName>
+ 	<targetTableName id="id">defect_two</targetTableName>
+ 	<columns>
+ 		<column>
+ 			<source type="com.hanke.clobrw.type.StringType">id</source>
+ 			<target type="com.hanke.clobrw.type.StringType">id</target>
+ 		</column>
+ 		<column>
+ 			<source type="com.hanke.clobrw.type.StringType">defectadder</source>
+ 			<target type="com.hanke.clobrw.type.StringType">creator_name</target>
+ 		</column>
+ 		<column>
+ 			<source type="com.hanke.clobrw.type.ClobType">defectdescription</source>
+ 			<target type="com.hanke.clobrw.type.StringType">defect_description</target>
+ 		</column>
+ 	</columns>
+</root>

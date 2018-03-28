@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root generator="com.hanke.clobrw.generator.UpdateGenerator">
+ 	<sourceTableName id="id" type="com.hanke.clobrw.type.StringType">defect</sourceTableName>
+ 	<targetTableName id="id" type="com.hanke.clobrw.type.StringType">defect_two</targetTableName>
+ 	<columns>
+ 		<column>
+ 			<source type="com.hanke.clobrw.type.TimestampType">defectdiscdate</source>
+ 			<target type="com.hanke.clobrw.type.DateType">created_date</target>
+ 		</column>
+ 	</columns>
+</root>
